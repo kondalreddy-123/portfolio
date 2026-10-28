@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Methuku Kondal Reddy | CSE Student & Developer</title>
+<meta name="description" content="Portfolio of Methuku Kondal Reddy, a Computer Science student at RGUKT Basar building practical web, AI and cybersecurity-minded projects.">
+<style>
+:root{--bg:#07080d;--fg:#e8ecf5;--mut:#9aa4bd;--card:rgba(255,255,255,.05);--bd:rgba(255,255,255,.12);--a:#38bdf8;--b:#8b5cf6;--c:#22d3ee;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f4f6fb;--fg:#10131c;--mut:#4a5470;--card:rgba(255,255,255,.75);--bd:rgba(0,0,0,.12);--a:#0369a1;--b:#6d28d9;--c:#0e7490}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}
+#bg{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(60% 50% at 80% 10%,rgba(139,92,246,.22),transparent),radial-gradient(50% 50% at 10% 60%,rgba(56,189,248,.14),transparent)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;gap:4px;overflow-x:auto;padding:10px 16px;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd)}
+nav a{white-space:nowrap;text-decoration:none;padding:6px 12px;border-radius:99px;color:var(--mut);font-size:14px}
+nav a.on,nav a:hover{color:var(--fg);background:var(--card);box-shadow:inset 0 0 0 1px var(--a)}
+main{position:relative;z-index:1;max-width:1100px;margin:auto;padding:0 20px}
+section{padding:72px 0 8px}
+h1{font-size:clamp(2.2rem,6vw,4rem);line-height:1.1;margin:.2em 0;background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:1.9rem;margin:0 0 24px}h2::after{content:"";display:block;width:56px;height:3px;margin-top:8px;background:linear-gradient(90deg,var(--a),var(--b));border-radius:3px}
+.hero{min-height:88vh;display:grid;align-items:center;grid-template-columns:1.1fr .9fr;gap:20px}
+#stage{width:100%;aspect-ratio:1;max-height:480px;border-radius:24px}
+.sub{color:var(--c);font-weight:600}.mut{color:var(--mut)}
+.btn{display:inline-block;margin:6px 8px 0 0;padding:10px 18px;border-radius:12px;border:1px solid var(--bd);text-decoration:none;background:var(--card);transition:.2s}
+.btn.p{background:linear-gradient(90deg,var(--a),var(--b));color:#fff;border:0}.btn:hover{transform:translateY(-2px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:20px;backdrop-filter:blur(8px);transform-style:preserve-3d;transition:transform .15s,border-color .2s;will-change:transform}
+.card:hover{border-color:var(--a)}.card h3{margin:0 0 6px;font-size:1.15rem}.card p{margin:.4em 0}
+.tag{display:inline-block;font-size:12px;padding:2px 10px;margin:2px 4px 2px 0;border-radius:99px;border:1px solid var(--bd);color:var(--c)}
+.pill{font-size:12px;color:var(--mut);margin-bottom:6px;text-transform:uppercase;letter-spacing:.08em}
+.links a{display:inline-block;margin:6px 12px 0 0;color:var(--a);font-weight:600}.links span{display:inline-block;margin-top:6px;font-size:13px;color:var(--mut)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}.filters button{font:inherit;cursor:pointer;color:var(--fg);padding:6px 14px;border-radius:99px;border:1px solid var(--bd);background:var(--card)}
+.filters button.on{background:linear-gradient(90deg,var(--a),var(--b));color:#fff;border:0}
+#q{font:inherit;padding:8px 14px;border-radius:99px;border:1px solid var(--bd);background:var(--card);color:var(--fg)}
+footer{position:relative;z-index:1;text-align:center;padding:48px 20px;color:var(--mut)}
+.reveal{opacity:0;transform:translateY(24px);transition:.7s}.reveal.in{opacity:1;transform:none}
+@media(max-width:800px){.hero{grid-template-columns:1fr}#stage{max-height:300px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}.reveal{opacity:1;transform:none}}
+</style></head><body>
+<div id="bg"></div>
+<nav id="nav" aria-label="Main"></nav>
+<main>
+<section id="home" class="hero"><div>
+<p class="sub">Hello, I’m</p><h1>Methuku Kondal Reddy</h1>
+<p class="sub">Computer Science Student | Developer | AI &amp; Cybersecurity Enthusiast</p>
+<p class="mut">I build practical digital experiences, explore emerging technologies like machine learning, and develop solutions to real-world problems.</p>
+<a class="btn p" href="#projects">Explore My Projects</a><a class="btn" href="#achievements">View My Achievements</a><a class="btn" href="https://kondalreddy-123.github.io/personal-portfolio/resume.pdf" target="_blank" rel="noopener">Download Resume</a><br>
+<a class="btn" href="https://github.com/kondalreddy-123" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/methuku-kondal-reddy-026654380/" target="_blank" rel="noopener">LinkedIn</a>
+</div><canvas id="stage" role="img" aria-label="Interactive 3D wireframe sphere with orbiting particles"></canvas></section>
+
+<section id="about" class="reveal"><h2>About</h2><div class="grid">
+<div class="card"><h3>Education</h3><p>Computer Science and Engineering student at RGUKT Basar.</p></div>
+<div class="card"><h3>Hands-on building</h3><p>I enjoy turning ideas into real applications, from web apps to AI-assisted tools.</p></div>
+<div class="card"><h3>AI, ML &amp; Security</h3><p>I’m currently learning machine learning and building projects to apply it in practice, with a growing interest in cybersecurity.</p></div>
+<div class="card"><h3>Learning by doing</h3><p>I take part in internships, technical competitions and student activities, and enjoy learning and collaborating.</p></div></div></section>
+
+<section id="skills" class="reveal"><h2>Skills</h2><div class="grid" id="skillGrid"></div></section>
+
+<section id="projects" class="reveal"><h2>Projects</h2>
+<div class="filters" id="filters"></div><div class="grid" id="projGrid"></div></section>
+
+<section id="achievements" class="reveal"><h2>Achievements &amp; Recognition</h2><div class="grid" id="achGrid"></div></section>
+<section id="experience" class="reveal"><h2>Experience</h2><div class="grid" id="expGrid"></div></section>
+<section id="education" class="reveal"><h2>Education</h2><div class="grid"><div class="card"><div class="pill">2025 – 2029 (pursuing)</div><h3>B.Tech, Computer Science Engineering</h3><p class="mut">RGUKT Basar · CGPA 8.8 (1st year)</p></div><div class="card"><div class="pill">2025</div><h3>PUC (Intermediate)</h3><p class="mut">CGPA 9.8</p></div><div class="card"><div class="pill">2023</div><h3>Classes 1–10</h3><p class="mut">ZPHS Ccpally, Koheda, Siddipet · GPA 9.7</p></div></div></section>
+<section id="certifications" class="reveal"><h2>Certifications</h2><div class="grid"><div class="card"><h3>Prompt Engineering Basics</h3></div><div class="card"><h3>React Basics</h3></div><div class="card"><h3>MS Excel Fundamentals</h3></div><div class="card"><div class="pill">NPTEL</div><h3>NPTEL examination</h3><p class="mut">Completed an NPTEL exam.</p></div></div></section>
+<section id="contact" class="reveal"><h2>Contact</h2><div class="card"><p>I’m open to internships, collaborations and technical opportunities. Reach me on:</p>
+<a class="btn p" href="mailto:mkondalreddy20@gmail.com">mkondalreddy20@gmail.com</a><a class="btn p" href="https://github.com/kondalreddy-123" target="_blank" rel="noopener">GitHub</a><a class="btn p" href="https://www.linkedin.com/in/methuku-kondal-reddy-026654380/" target="_blank" rel="noopener">LinkedIn</a></div></section>
+</main>
+<footer>© Methuku Kondal Reddy</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const NAV=["Home","About","Skills","Projects","Achievements","Experience","Education","Certifications","Contact"];
+const SK=[["Programming",["C","Python","JavaScript"]],["Web Development",["HTML5","CSS3","React.js","Responsive Design","Three.js"]],["Backend & APIs",["Python","Flask","REST APIs"]],["Tools",["Git","GitHub","VS Code","MS Excel","PowerPoint"]],["Core Concepts",["Data Structures & Algorithms (basics)","Prompt Engineering"]],["Learning",["Machine Learning","AI","Cybersecurity"]],["Languages",["Telugu","English","Hindi"]]];
+const GH="https://github.com/kondalreddy-123";
+const P=[
+{t:"FormEase AI",c:"AI",d:"A platform concept that helps users understand and complete government forms more easily.",f:"Guided form assistance for people who find official forms confusing.",l:[["Live demo","https://formease-ai.onrender.com"]]},
+{t:"HealthPass",c:"Web",d:"A patient-held, consent-driven health record system.",f:"Built for patient-controlled access to records with consent-based sharing. Won a Special Mention Prize at VJ Hackathon 2026.",l:[]},
+{t:"BISENSE / AI BIS SENSOR",c:"AI",d:"A semantic search platform that recommends Indian Standards from natural-language product requirements, with multilingual queries including Hindi and Telugu.",f:"Flask REST API with FAISS vector similarity search; the frontend explains which requirement parameters matched each recommendation. Built with Python, Flask, FAISS, NumPy and Three.js.",l:[["GitHub",GH+"/Bisense"],["Demo","https://bisense-1f35.onrender.com"],["Frontend","https://frontend-1-three-alpha.vercel.app"],["Backend","https://ai-bis-sensor-1.onrender.com"]]},
+{t:"Weekly Report Builder AI",c:"AI",d:"A tool that generates structured weekly reports from spreadsheet data and natural-language instructions.",f:"Spreadsheet-based reporting driven by plain-language instructions.",l:[]},
+{t:"Tic-Tac-Toe",c:"Games",d:"A browser Tic-Tac-Toe game built with plain HTML, CSS and JavaScript.",f:"Two-player mode with win detection, score tracking and a reset button.",l:[["Play","https://kondalreddy-123.github.io/personal-portfolio/tictactoe.html"]]},
+{t:"Quiz Application",c:"Web",d:"An interactive multiple-choice quiz app built with vanilla JavaScript.",f:"Includes a score tracker and instant feedback on answers.",l:[]},
+{t:"Landing Page",c:"Web",d:"A responsive landing page built with semantic HTML and CSS.",f:"Focused on clean layout and mobile readability.",l:[["GitHub",GH+"/landing-page"]]},
+{t:"Rock Paper Scissors",c:"Games",d:"A classic Rock Paper Scissors game.",f:"Play rounds against the computer.",l:[]},
+{t:"Prompt Engineering Task 01: Writing Better Prompts",c:"Prompt Eng.",d:"Repository for a prompt engineering task on writing better prompts.",f:"Prompt design practice.",l:[["GitHub",GH+"/task-01"]]},
+{t:"Prompt Engineering Task 02: Prompting for Creativity",c:"Prompt Eng.",d:"Repository for a task on prompting AI models for creative output.",f:"Prompt design practice.",l:[["GitHub",GH+"/task-02"]]},
+{t:"Prompt Engineering Task 03: Task Automation",c:"Prompt Eng.",d:"Repository for a task on prompting AI models to automate tasks.",f:"Prompt design practice.",l:[["GitHub",GH+"/task-03"]]},
+{t:"Prompt Engineering Task 04: Simulating an Assistant",c:"Prompt Eng.",d:"Repository for a task on prompting an AI model to act as an assistant.",f:"Prompt design practice.",l:[["GitHub",GH+"/task-04"]]}];
+const A=[
+{t:"Special Mention, VJ Hackathon 2026",o:"VJ Hackathon 2026 (national-level, 24-hour)",d:"Won a Special Mention Prize for HealthPass."},
+{t:"Idea Selected, Agent 37 Hackathon",o:"IIT Guwahati",d:"My idea was selected: an AI-powered video editing agent that edits videos from text prompts."},
+{t:"LinkedIn Zip 10-Day Task",o:"LinkedIn Zip",d:"Completed the 10-day task and kept an 11-day play streak. A platform challenge, not a certification."},
+{t:"CSI Club Activities",o:"RGUKT Basar",d:"Participated in CSI club activities as a student."}];
+const E=[
+{o:"SkillCraft Technologies",r:"Prompt Engineering Internship",d:"Completed prompt engineering tasks applying AI tools to real-world use cases, and structured prompts to improve the quality of AI model outputs."},
+{o:"CodSoft",r:"AI Internship",d:"Completed AI internship assignments and project work, applying AI concepts to practical problem-solving, including a Tic-Tac-Toe AI game."}];
+const $=s=>document.querySelector(s),esc=s=>s.replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+$("#nav").innerHTML=NAV.map(n=>`<a href="#${n.toLowerCase()}">${n}</a>`).join("");
+$("#skillGrid").innerHTML=SK.map(([h,a])=>`<div class="card"><h3>${h}</h3>${a.map(x=>`<span class="tag">${x}</span>`).join("")}</div>`).join("");
+$("#achGrid").innerHTML=A.map(a=>`<div class="card"><div class="pill">${esc(a.o)}</div><h3>${esc(a.t)}</h3><p class="mut">${esc(a.d)}</p></div>`).join("");
+$("#expGrid").innerHTML=E.map(a=>`<div class="card"><div class="pill">${esc(a.o)}</div><h3>${esc(a.r)}</h3><p class="mut">${esc(a.d)}</p></div>`).join("");
+let cat="All",q="";const cats=["All",...new Set(P.map(p=>p.c))];
+function drawP(){$("#filters").innerHTML=cats.map(c=>`<button class="${c==cat?"on":""}" data-c="${c}">${c}</button>`).join("")+`<input id="q" placeholder="Search projects" aria-label="Search projects" value="${esc(q)}">`;
+const L=P.filter(p=>(cat=="All"||p.c==cat)&&(p.t+p.d).toLowerCase().includes(q.toLowerCase()));
+$("#projGrid").innerHTML=L.map(p=>`<article class="card"><div class="pill">${p.c}</div><h3>${esc(p.t)}</h3><p>${esc(p.d)}</p><p class="mut">${esc(p.f)}</p><div class="links">${p.l.length?p.l.map(x=>`<a href="${x[1]}" target="_blank" rel="noopener">${x[0]} ↗</a>`).join(""):"<span>Links coming soon</span>"}</div></article>`).join("")||"<p class='mut'>No projects match.</p>";tilt();
+document.querySelectorAll("#filters button").forEach(b=>b.onclick=()=>{cat=b.dataset.c;drawP()});
+const i=$("#q");i.oninput=e=>{q=e.target.value;const s=e.target.selectionStart;drawP();$("#q").focus();$("#q").setSelectionRange(s,s)}}
+const RM=matchMedia("(prefers-reduced-motion:reduce)").matches;
+function tilt(){if(RM)return;document.querySelectorAll(".card").forEach(c=>{if(c._t)return;c._t=1;c.addEventListener("pointermove",e=>{if(e.pointerType=="touch")return;const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(700px) rotateY(${x*10}deg) rotateX(${-y*10}deg)`});c.addEventListener("pointerleave",()=>c.style.transform="")})}
+drawP();tilt();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("in")}),{threshold:.1});document.querySelectorAll(".reveal").forEach(e=>io.observe(e));
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});document.querySelectorAll("section").forEach(s=>so.observe(s));
+(function(){const cv=$("#stage");try{if(!window.THREE)throw 0;const r=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true}),s=new THREE.Scene(),cam=new THREE.PerspectiveCamera(50,1,.1,50);cam.position.z=5;
+const g=new THREE.Group();s.add(g);g.add(new THREE.Mesh(new THREE.IcosahedronGeometry(1.5,2),new THREE.MeshBasicMaterial({color:0x38bdf8,wireframe:true,transparent:true,opacity:.55})));
+g.add(new THREE.Mesh(new THREE.IcosahedronGeometry(.9,1),new THREE.MeshBasicMaterial({color:0x8b5cf6,wireframe:true})));
+const n=300,pos=new Float32Array(n*3);for(let i=0;i<n;i++){const u=Math.random()*6.28,v=Math.acos(2*Math.random()-1),R=2.2+Math.random()*.8;pos.set([R*Math.sin(v)*Math.cos(u),R*Math.sin(v)*Math.sin(u),R*Math.cos(v)],i*3)}
+const pg=new THREE.BufferGeometry();pg.setAttribute("position",new THREE.BufferAttribute(pos,3));const pts=new THREE.Points(pg,new THREE.PointsMaterial({color:0x22d3ee,size:.04}));g.add(pts);
+let mx=0,my=0;addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+function rs(){const w=cv.clientWidth,h=cv.clientHeight;r.setSize(w,h,false);r.setPixelRatio(Math.min(devicePixelRatio,2));cam.aspect=w/h;cam.updateProjectionMatrix()}rs();addEventListener("resize",rs);
+(function loop(){if(!RM){g.rotation.y+=.004;pts.rotation.x-=.002}g.rotation.x+=(my*.8-g.rotation.x)*.05;g.position.x+=(mx*.6-g.position.x)*.05;r.render(s,cam);requestAnimationFrame(loop)})()}
+catch(e){cv.outerHTML='<div class="card" id="stage" style="display:grid;place-items:center;text-align:center"><h3>{ AI · Code · Security }</h3></div>'}})();
+</script></body></html>
